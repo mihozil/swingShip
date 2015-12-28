@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18011E3B1C3128E6002C52FF /* inLove.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18011E3A1C3128E6002C52FF /* inLove.mp3 */; };
 		181821791C2FE07800D3C47B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181821781C2FE07800D3C47B /* main.m */; };
 		1818217C1C2FE07800D3C47B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818217B1C2FE07800D3C47B /* AppDelegate.m */; };
 		1818217F1C2FE07800D3C47B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818217E1C2FE07800D3C47B /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		181821841C2FE07800D3C47B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181821831C2FE07800D3C47B /* Images.xcassets */; };
 		181821871C2FE07800D3C47B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181821851C2FE07800D3C47B /* LaunchScreen.xib */; };
 		181821931C2FE07800D3C47B /* SwingShipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181821921C2FE07800D3C47B /* SwingShipTests.m */; };
+		1818219E1C2FE33F00D3C47B /* seabackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818219C1C2FE33F00D3C47B /* seabackground.png */; };
+		1818219F1C2FE33F00D3C47B /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818219D1C2FE33F00D3C47B /* ship.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18011E3A1C3128E6002C52FF /* inLove.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = inLove.mp3; sourceTree = SOURCE_ROOT; };
 		181821731C2FE07800D3C47B /* SwingShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwingShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181821771C2FE07800D3C47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181821781C2FE07800D3C47B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		1818218C1C2FE07800D3C47B /* SwingShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwingShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181821911C2FE07800D3C47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181821921C2FE07800D3C47B /* SwingShipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwingShipTests.m; sourceTree = "<group>"; };
+		1818219C1C2FE33F00D3C47B /* seabackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seabackground.png; sourceTree = SOURCE_ROOT; };
+		1818219D1C2FE33F00D3C47B /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 		181821761C2FE07800D3C47B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18011E3A1C3128E6002C52FF /* inLove.mp3 */,
+				1818219C1C2FE33F00D3C47B /* seabackground.png */,
+				1818219D1C2FE33F00D3C47B /* ship.png */,
 				181821771C2FE07800D3C47B /* Info.plist */,
 				181821781C2FE07800D3C47B /* main.m */,
 			);
@@ -199,7 +208,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18011E3B1C3128E6002C52FF /* inLove.mp3 in Resources */,
 				181821821C2FE07800D3C47B /* Main.storyboard in Resources */,
+				1818219F1C2FE33F00D3C47B /* ship.png in Resources */,
+				1818219E1C2FE33F00D3C47B /* seabackground.png in Resources */,
 				181821871C2FE07800D3C47B /* LaunchScreen.xib in Resources */,
 				181821841C2FE07800D3C47B /* Images.xcassets in Resources */,
 			);
@@ -412,6 +424,7 @@
 				181821981C2FE07800D3C47B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181821991C2FE07800D3C47B /* Build configuration list for PBXNativeTarget "SwingShipTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				1818219B1C2FE07800D3C47B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
